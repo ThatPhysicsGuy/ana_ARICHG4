@@ -2,7 +2,7 @@ This is an Analisys code written to work symbiontically with ARICH_G4 [either v1
 
 The makefile should work, if it doesn't I'm sorry. It also need to source root (if not done yet).
 
-how to use it:
+how to use it: \\
 bash:
   make 
   ./bin/ana [events_root_file_name] [particle_E] (argv[2] is the particle name but I usually add the energy to not get confused)
