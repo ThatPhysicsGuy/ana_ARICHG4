@@ -5,7 +5,11 @@ The makefile should work, if it doesn't I'm sorry. It also need to source root (
 how to use it (bash):  
   
   make   
-  ./bin/ana [events_root_file_name] [particle_E] (argv[2] is the particle name but I usually add the energy to not get confused)  
+  ./bin/ana [events_root_file_name] [particle_E]   
+    
+(argv[2] is the particle name but I usually add the energy to not get confused)  
+
+The folder out contains some events to use to test it.
 
 It saves the files into a directory called "out_100k_timew" but it can be changed at your convenience.  
 
